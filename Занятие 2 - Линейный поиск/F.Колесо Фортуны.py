@@ -9,9 +9,6 @@ def func(n, sektors, a, b, k):
     
     answer = 0
 
-    if a <= k:
-        answer = sektors[0]
-
     if (b - a) >= n*k:
         answer = max(sektors)
     else:
