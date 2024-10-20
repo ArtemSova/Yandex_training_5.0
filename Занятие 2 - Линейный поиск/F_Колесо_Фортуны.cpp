@@ -3,7 +3,7 @@
 using namespace std;
 
 int main() {
-	int n;
+    int n;
     cin >> n;
 
     short wheel[n];
@@ -71,5 +71,5 @@ int main() {
 
     cout << answer;
 
-	return 0;
+    return 0;
 }
